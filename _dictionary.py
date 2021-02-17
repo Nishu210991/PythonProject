@@ -1,8 +1,3 @@
-l1=[1,2,3,4]
-l2=[1,2,3,4]
-print(l1 is l2) # False
-print(l1==l2) #True
-
 D = {'emp1': {'name': 'Vishavjeet', 'job': 'Data Scientist'},
      'emp2': {'name': 'Anupam', 'job': 'Sr. Manager'},
      'emp3': {'name': 'Nishu', 'job': 'CEO'}}
