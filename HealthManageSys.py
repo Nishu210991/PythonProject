@@ -23,5 +23,12 @@ def myfunc():
       user_exe = input("Enter Client Exercise")
       print("Diet of " ,user_exe + " is" , user_exe + "Done at " ,getdate())
 
+def myDict():
+    dict= {"apple":"shev", "banana":"kela", "todaydate":getdate(), "orange":"asdasd"}
+    key=input("Transalate your word ")
+    #print(dict[key])
+    print(dict.get(key))
+
+myDict()
 myfunc()
 
