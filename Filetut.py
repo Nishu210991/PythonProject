@@ -1,4 +1,4 @@
-f = open("Nishu.txt", "rt")
+#f = open("Nishu.txt", "rt")
 # content = f.read()
 # print(content)
 
@@ -16,8 +16,7 @@ f = open("Nishu.txt", "rt")
 # print(f.readline()) #Read  2nd line   (She is very beautiful and Intelligent..)
 # print(f.readlines()) #print list
 #['Nishu is a good Girl.\n', 'She is very beautiful and Intelligent..']
-
-f.close()
+#f.close()
 
 # Write in File
 # f= open("Nis.txt", "w") #w is only for writing mode.replaced all content while executing.
@@ -25,6 +24,14 @@ f.close()
 # f.close()
 
 #Append in file
-f= open("Nis.txt", "a") #w is only for writing mode.replaced all content while executing.
-f.write("Nishu is an Angel\n")
-f.close()
+#f= open("Nis.txt", "a") #w is only for writing mode.replaced all content while executing.
+# f.write("Nishu is an Angel\n")
+#a=f.write("Nishu is an Angel\n") # if we want to know how many charcter we inserted.(return value)
+#print(a)
+#f.close()
+
+#Handle Read and Write Both
+f= open("Nishu.txt", "r+")
+print(f.read())
+f.write("Thanks\n")
+
