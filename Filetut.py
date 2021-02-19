@@ -31,7 +31,28 @@
 #f.close()
 
 #Handle Read and Write Both
-f= open("Nishu.txt", "r+")
-print(f.read())
-f.write("Thanks\n")
+# f= open("Nishu.txt", "r+")
+# print(f.read())
+# f.write("Thanks\n")
+
+# To know the pointer location
+# f= open("Nishu.txt")
+# print(f.tell())
+# print(f.readline())
+# print(f.tell())
+# print(f.readline())
+
+#Reset the file pointer
+# f= open("Nishu.txt")
+# print(f.readline())
+# print(f.seek(0))
+# print(f.readline())
+# print(f.seek(11))
+# print(f.readline())
+
+#Open File with Block(No need to close the file. It includes both open and close.)
+
+with open("Nishu.txt") as f:
+    a=f.read(4)
+    print(a)  #Nish
 
