@@ -15,6 +15,7 @@ while i<6:
         i=i+1
 
         #print(count_user)
+        
 
     else:
         count_comp = count_comp + 1
