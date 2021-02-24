@@ -3,12 +3,14 @@ i=1
 count_comp=0
 count_user=0
 chance=6
-
 while i<=6:
     game_pointer = ['S', 'W', 'G']
     rand = random.choice(game_pointer)
     #print(rand)
-    input1 = input("Enter first key word of yours choice:S, W, G")
+    #input1 = input("Enter first key word of yours choice:S, W, G: ")
+    input1 = input("Enter first key word of yours choice:S, W, G: ").upper()
+    while input1 not in  'SWG':
+        input1 = input("Invalid!: Enter First key word of yours choice:S, W, G: ").upper()
     if chance>0:
 
         if input1=='S' and rand=='G':
