@@ -46,8 +46,6 @@ while i<=6:
         elif input1==rand:
             print("Match Tie:Both Guesses are same")
 
-        elif input1!=rand:
-            print("Please Enter Valid Keyword")
 
         chance=chance-1
         print("Left Chances:", chance)
