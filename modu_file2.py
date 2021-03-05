@@ -12,6 +12,6 @@ def add(num1, num2):
 print("and the name is:",__name__)
 
 if __name__== '__main__':
-    print(nis(" Stranger"))
+    print(nis(" Non-Technical Insaan"))
     o=add(10, 5)
     print("Total:",+o)
