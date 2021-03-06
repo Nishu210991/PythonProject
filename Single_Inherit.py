@@ -30,8 +30,6 @@ class programmer(Employee):
         self.salary = asalary
         self.role = arole
         self.language=alanguages
-
-
     def prit_pro(self):
         return f"The Name is {self.name}. Salary is {self.salary} and role is {self.role} and knows {self.language}"
     #pass
