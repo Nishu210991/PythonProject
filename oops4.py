@@ -9,7 +9,7 @@ class Employee:
 
 
     def printdetails(self):
-        return f"Employee Name is{self.name}.Salary is {self.Sal} and Role is {self.Role}"
+        return f"Employee Name is{self.name}.Salary is {self.salary} and Role is {self.role}"
 
 
     @classmethod
@@ -35,4 +35,4 @@ print(Nishu.no_of_leaves)  # change for both employee's leaves
 Rishu.change_leave(34)
 
 Aana.print_point(" This is used for increasing the efficiency.")
-
+print(Aana.printdetails())

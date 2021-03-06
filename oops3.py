@@ -7,7 +7,7 @@ class Employee:
 
 
     def printdetails(self):
-        return f"Employee Name is{self.name}.Salary is {self.Sal} and Role is {self.Role}"
+        return f"Employee Name is{self.name}.Salary is {self.salary} and Role is {self.role}"
 
 
     @classmethod
