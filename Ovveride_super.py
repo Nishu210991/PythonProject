@@ -11,7 +11,7 @@ class B(A):
     classvar1 = "I am in Class B" #Attribute override--
 
     def __init__(self):      #constructor override
-        super().__init__()   #super is used for super class constructor, Attribute, method(like class A)
+        super().__init__()   #super is used for access from the super class constructor, Attribute, method(like class A)
         self.var1 = "I am inside class B's constructor"
         self.classvar1 = "Instace os class B"
         #super().__init__()  #no use of super because its showing class A values
