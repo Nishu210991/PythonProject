@@ -36,6 +36,6 @@ class Employee:
 
 emp = Employee("Nishu", 115000, "Developer")
 
-#print(emp._protect)
-print(emp.no_of_leaves)
+print(emp._protect)
+print(emp._Employee__private)
 
