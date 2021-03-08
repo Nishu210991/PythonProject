@@ -29,6 +29,6 @@ class Employee:
 
 emp1=Employee(" Nishu", 450, "Programmer")
 emp2=Employee(" Rishu", 45, "Hairdresser")
-print(emp1+emp2) # cant identify throw error
+print(emp1+emp2) # cant identify throw error without add mthod
 print(emp1/emp2)
 print(emp1)  #it calls repr method.but if str method is available give 1st priority to str.
